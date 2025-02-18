@@ -27,6 +27,18 @@ local plugins = {
       "nvim-lua/plenary.nvim",
     },
   },
+
+  {
+    "kawre/leetcode.nvim",
+    lazy = false,
+    dependencies = {
+      "nvim-telescope/telescope.nvim",
+      "nvim-lua/plenary.nvim",
+      "MunifTanjim/nui.nvim",
+    },
+    opts = require("configs.leetcode").opts,
+    build = ":TSUpdate html",
+  },
 }
 
 return plugins
