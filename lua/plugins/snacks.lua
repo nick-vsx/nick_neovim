@@ -13,6 +13,7 @@ return {
       },
       keys = {
         { icon = "🎠", title = "- My little toys -" },
+        { icon = " ", key = "lt", desc = "Play a Game", action = ":Leet" },
         { icon = " ", key = "f", desc = "Find file", action = ":Telescope find_files" },
         { icon = " ", key = "p", desc = "Preview image", action = ":Telescope media_files" },
         { icon = " ", key = "n", desc = "New file", action = ":ene | startinsert" },
@@ -39,7 +40,7 @@ return {
 
             printf '\n%.0s' $(seq 1 $top_padding);
 
-            chafa ~/desktop/111.jpg --symbols vhalf --size 50x50;
+            chafa ~/.config/nvim/lua/assets/avatar.jpg --symbols vhalf --size 50x50;
             sleep .1
           ]],
           height = 50,
@@ -55,7 +56,7 @@ return {
           pane = 2,
           {
             section = "keys",
-            padding = 2,
+            padding = 1,
             gap = 1,
           },
         },
