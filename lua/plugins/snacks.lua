@@ -10,19 +10,19 @@ return {
 ██║╚██╗██║██║██║     ██╔═██╗ 
 ██║ ╚████║██║╚██████╗██║  ██╗
 ╚═╝  ╚═══╝╚═╝ ╚═════╝╚═╝  ╚═╝]],
-      },
-      keys = {
-        { icon = "🎠", title = "- My little toys -" },
-        { icon = " ", key = "lt", desc = "Play a Game", action = ":Leet" },
-        { icon = " ", key = "f", desc = "Find file", action = ":Telescope find_files" },
-        { icon = " ", key = "p", desc = "Preview image", action = ":Telescope media_files" },
-        { icon = " ", key = "n", desc = "New file", action = ":ene | startinsert" },
-        { icon = " ", key = "g", desc = "Find text", action = ":Telescope live_grep" },
-        { icon = " ", key = "r", desc = "Recent files", action = ":Telescope oldfiles" },
-        { icon = " ", key = "c", desc = "Config", action = ":Telescope find_files cwd=~/.config/nvim" },
-        { icon = " ", key = "s", desc = "Restore session", section = "session" },
-        { icon = "󰒲 ", key = "l", desc = "Lazy", action = ":Lazy" },
-        { icon = " ", key = "q", desc = "Quit", action = ":qa" },
+        keys = {
+          { icon = "🎠", title = "- My little toys -" },
+          { icon = " ", key = "lt", desc = "Play a Game", action = ":Leet" },
+          { icon = " ", key = "f", desc = "Find file", action = ":Telescope find_files" },
+          { icon = " ", key = "p", desc = "Preview image", action = ":Telescope media_files" },
+          { icon = " ", key = "n", desc = "New file", action = ":ene | startinsert" },
+          { icon = " ", key = "g", desc = "Find text", action = ":Telescope live_grep" },
+          { icon = " ", key = "r", desc = "Recent files", action = ":Telescope oldfiles" },
+          { icon = " ", key = "c", desc = "Config", action = ":Telescope find_files cwd=~/.config/nvim" },
+          { icon = " ", key = "s", desc = "Restore session", section = "session" },
+          { icon = "󰒲 ", key = "l", desc = "Lazy", action = ":Lazy" },
+          { icon = " ", key = "q", desc = "Quit", action = ":qa" },
+        },
       },
       sections = {
         {
